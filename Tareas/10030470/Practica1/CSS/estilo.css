@@ -1,0 +1,179 @@
+body{
+	font: 16px/26px Helvetica;
+	line-heigth: 1.4;
+}
+
+.container{
+	width :90%;
+	margin:0 5%;
+}
+
+.header-container{
+	/*
+	border: 20px;
+	border-top: 20px;
+	border-left: 20px;
+	border-right: 20px;
+	border: 10px 10px 12px 12px;*/
+	
+	border-bottom: 20px solid #e44d26;
+}
+
+.footer-container,
+.main inside{
+	border-top: 20px solid #e44d26;
+}
+
+.header-container,
+.footer-container,
+.main inside{
+	background: #f16529;
+}
+
+.title{
+	color: white;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav a{
+	display: block;
+	margin-bottom: 10px;
+	padding: 15px 0;
+	
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	
+	color: white;
+	background: #e44d26;
+}
+
+/* establece el estilo de acuerdo a las veces q a pasado el mouse x ejemplo cuando pase sobre el
+la pinta de otro color, o en este caso pondra una linea de bajo del texto */ 
+
+nav a:hover,
+nav a:visited{
+	color: blue;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+.main {
+	padding: 30px 0;
+/*margen inferior del mismo elemento si son 4 valores en sentido d las manesillas reloj para 
+darle margn al texto interior de la pagina puede ser inferior, superior, der, izq cuando son dos elemenetos uno
+es superior-inferior, dere-izq, */
+}
+.main article h1{ /*todas las etiquetas aside q esten dentro dentro d cualquier etiqueta main*/
+	font-size: 2em;
+}
+
+.main aside{
+	color: white;
+	padding: 0px 5% 10px;
+}
+
+.footer-container footer{
+	color: white;
+	padding: 20px 0;
+}
+
+.clear:before,
+.clear:after{
+	content: " ";
+	display: table;
+}
+
+.clear:after {
+	clear: both;
+}
+
+/* esto se aplica a pantallas mas anchas de 480 pixeles mostrar o eliminar el codigo de acuerdo a la resolucion*/
+@media only screen and (min-width: 480px){
+	h1{
+		color: blue;
+	}
+	nav a{
+		float: left;
+		width: 27%;
+		margin: 0 1.7%;
+		padding: 25px 2%;
+		margin-bottom: 0;
+	}
+	nav li:first-child a {
+		margin-left: 0;
+	}
+	nav li:last-child a {
+		margin-right: 0;
+	}
+	nav ul li{
+		display: inline;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
