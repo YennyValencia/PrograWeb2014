@@ -1,0 +1,25 @@
+.color1{
+	background-color: red;
+
+}
+.color2{
+	background-color: yellow;
+	
+}
+.color3{
+	background-color: green;
+	
+}
+.color4{
+	background-color: orange;
+	
+}
+
+.color5
+{
+
+	/*
+	para poner imagen de fondo
+	*/
+	background-image: url(img/imagen.jpg);
+}
