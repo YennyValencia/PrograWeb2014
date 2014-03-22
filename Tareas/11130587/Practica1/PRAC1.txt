@@ -1,0 +1,38 @@
+sublimetext2-->instalar
+notepad
+
+herramientas
+opciones de carpeta
+ocultar o mostrar ocultos
+ETIQUETA META-->ahí buscan los navegadores el contenido de la página,
+ahora define el juego de caracteres
+HEAD--> no se puede repetir 2 veces en el código, es un nodo, contiene las referencias sobre el contenido:archivos, hojas de estilo, encabezados
+HEADER--> define encabezados del contenido
+NOMBRE DE LA CLASE-->para poder definirle atributos a todo lo que este en la clase, como color de fuente, tamaño, etc..., se forma un contenedor principal para cuando se genere el estilo se pueda modificar
+Se pueden tener N clases para un elemento pero con un solo identificador, las clases si se pueden repetir en más de un elemento
+El valor del id no se puede repetir en ninguna parte del elemento
+CÓDIGO CON SANGRÍA!!
+Etiqueta h1, para poner titulos, tiene la letra más grande y esta va disminuyendo segun el número, h va desde 1 a h6, hay busca el titulo el motor de busqueda y será el resultado que se muestre
+Para hacer referencia a la clase se usa el punto antes del nombre
+nav=barra de navegación
+ul= definir una lista
+l1=para cada nodo
+a=crear hipervinculos
+
+TAREA!!
+LISTADO DE: ETIQUETAS DE HTML, CON ATRIBUTOS Y POSIBLES VALORES
+COMO SE ENVÍA UN RECURSO A OTRA PÁGINA U OTRO RECURSO O VENTANA EMERGENTE
+
+PRÁCTICA 1 -- NO comentar en el código
+para comentar se hace 
+<!-- Definir clase -->
+<div class="header-container">
+
+En CSS existen selectores, en donde se especificaran propiedades, entre llaves va todo lo que se va a especificar
+Loc comentario en la hoja de estilo
+/* comentarios */
+con . se seleccionan todos los elementos contenidos
+y con # se selecciona el elemento con ese id
+
+puras rutas relativas en la etiqueta link, link es para ligar los archivos css con la página
+
