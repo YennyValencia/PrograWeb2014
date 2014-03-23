@@ -1,0 +1,266 @@
+#Image1
+{
+     background-image: url('../img/Apple/1.1.jpg');
+     width: 1437px;
+     height: 625px;
+     left: 241px;
+     cursor: pointer;
+}
+
+#Image2
+{
+    background-image: url('../img/Apple/2.jpg');
+    width: 359px;
+    height: 201px;
+    left: 257px;
+    cursor: pointer;
+}
+
+#Image3
+{
+    background-image: url('../img/Apple/3.jpg');
+    width: 359px;
+    height: 201px;
+    left: 257px;
+    cursor: pointer;
+}
+
+#Image4
+{
+    background-image: url('../img/Apple/4.jpg');
+    width: 359px;
+    height: 201px;
+    left: 257px;
+    cursor: pointer;
+}
+
+#Image5
+{
+    background-image: url('../img/Apple/5.jpg');
+    width: 359px;
+    height: 201px;
+    left: 257px;
+    cursor: pointer;
+}
+
+#Image6
+{
+    background-image: url('../img/Apple/6.jpg');
+    width: 16px;
+    height: 17px;
+    left: 1550px;
+    top: 23px;
+    cursor: pointer;
+}
+
+#Image7
+{
+    background-image: url('../img/Apple/7.jpg');
+    width: 106px;
+    height: 36px;
+
+}
+
+#Image8
+{
+    background-image: url('../img/Apple/8.jpg');
+    width: 106px;
+    height: 36px;
+}
+
+#Image9
+{
+    background-image: url('../img/Apple/9.jpg');
+    width: 106px;
+    height: 36px;
+}
+
+#Image10
+{
+    background-image: url('../img/Apple/10.jpg');
+    width: 106px;
+    height: 36px;
+}
+
+#Image11
+{
+    background-image: url('../img/Apple/11.jpg');
+    width: 106px;
+    height: 36px;
+}
+
+#Image12
+{
+    background-image: url('../img/Apple/12.jpg');
+    width: 106px;
+    height: 36px;
+}
+
+#Image13
+{
+    background-image: url('../img/Apple/13.jpg');
+    width: 106px;
+    height: 36px;
+}
+
+#Image14
+{
+    background-image: url('../img/Apple/14.jpg');
+    width: 139px;
+    height: 36px;
+
+}
+
+
+
+#Fuente0
+{
+    font-size: 70px;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 400px;
+    cursor: pointer;
+}
+
+#Fuente1
+{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white; 
+    position: absolute;
+    top: 340px;
+    left: 290px;
+    cursor: pointer;
+}
+
+#Fuente2
+{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    top: 385px;
+    left: 327px;
+    cursor: pointer;
+}
+
+#Fuente3
+{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    top: 455px;
+    left: 400px;
+    cursor: pointer;
+}
+
+#Fuente4
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: black;
+    position: absolute;
+    top: 850px;
+    left: 470px;
+}
+
+#Fuente5
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: blue;
+    position: absolute;
+    top: 850px;
+    left: 550px;
+    cursor: pointer;
+}
+
+#Fuente6
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: black;
+    position: absolute;
+    top: 850px;
+    left: 657px;
+}
+
+#Fuente7
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: blue;
+    position: absolute;
+    top: 850px;
+    left: 857px;
+    cursor: pointer;
+}
+
+#Fuente8
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: blue;
+    position: absolute;
+    top: 850px;
+    left: 1057px;
+    cursor: pointer;
+}
+
+#Fuente9
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: blue;
+    position: absolute;
+    top: 850px;
+    left: 1140px;
+    cursor: pointer;
+}
+
+#Fuente10
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: blue;
+    position: absolute;
+    top: 850px;
+    left: 1240px;
+    cursor: pointer;
+}
+
+#Fuente11
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: blue;
+    position: absolute;
+    top: 850px;
+    left: 1272px;
+    cursor: pointer;
+}
+
+#Fuente12
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: blue;
+    position: absolute;
+    top: 850px;
+    left: 1370px;
+    cursor: pointer;
+}
+
+#Fuente13
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: blue;
+    position: absolute;
+    top: 850px;
+    left: 1428px;
+    cursor: pointer;
+}
