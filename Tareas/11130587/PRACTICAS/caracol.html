@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Caracol</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/caracol.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row centered color1">
+		<h1>Caracol</h1>
+      </div>
+     
+      <div class="row">
+        <div class="col-md-4">
+          
+            <form action="caracol.html" method="GET"><!--Form:denife un formulario.archivo que recibe información index.html y el metodo por el cual envia información.protocolo de estado sin memoria http,con dos metodos para  enviar información,GET envia informacion por la url y el POST los envia en el cuerpo del docuento-->
+                            
+                <div class="form-group">
+					<label for="dato1">Profundidad</label>
+					<input type="text" class="form-control" id="dato1" placeholder="Profundidad" name="dato1">
+				</div>
+                <hr>
+                <div class="form-group">
+					<label for="dato2">Sube</label>
+					<input type="text" class="form-control" name="dato2" id="dato2" placeholder="Sube">
+				</div>
+                <hr>
+                <div class="form-group">
+					<label for="dato3">Resbala</label>
+					<input type="text" class="form-control" name="dato3" id="dato3" placeholder="Resbala">
+				</div>
+                <hr>
+                <input type="button" class="btn btn-primary" "centered" value="Aceptar" align="center" id="boton">
+
+				
+            </form>
+
+
+		  
+		  
+		  
+        </div>
+        <div class="col-md-8">
+           <div class="row">
+              <div class="col-md-4">
+                 <img src="img/sol.jpg" height="70" width="40" alt="imagen 2" id="cambiar">
+                 <img src="img/luna.jpg" height="70"  width="40" alt="imagen 2" id="cambiar2">
+              </div>
+              <div class="col-md-4">
+              
+              </div> 
+              <div class="col-md-4">
+                
+              </div>
+           </div>
+           <div class="row">
+              <div class="col-md-1 color2">
+				<h6><p id="caracol1" >CIMA:)<p></h6>
+                <img src="img/caracol.jpg" heigth="120" width="120" id="imagen">
+              </div>
+              <div class="col-md-1 color3"></div>
+              <div class="col-md-10 "></div>
+              
+           </div>
+        </div>
+      </div>
+     
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/stroker.js"></script>
+  </body>
+</html>
