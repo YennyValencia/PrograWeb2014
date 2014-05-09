@@ -1,0 +1,38 @@
+<html>
+<head>
+
+<script>
+function calcula(operacion){
+    var operando1 = document.calculadora.operando1.value
+    var operando2 = document.calculadora.operando2.value 
+    var result = eval(operando1 + operacion + operando2)
+    document.calculadora.resultado.value = result
+}		
+</script> 
+
+</head>
+<body>
+	<form name="calculadora">
+		<label for="operando1">Profundidad: </label>
+		<input type="Text" name="operando1" id="operando1" value="" size="10">
+<!-- 		<input type="Button" name="" value="Aceptar" onclick="calcula('-')"> -->
+		<br>
+		<label for="operando3">Sube: </label>
+		<input type="Text" name="operando3" id="operando3" value="" size="10">
+		<br>
+		<label for="operando2">Resbala: </label>
+		<input type="Text" name="operando2" id="operando2" value="" size="10">
+
+		<br>
+		<input type="Button" name="" value="Aceptar" onclick="calcula('-')">
+		
+		<hr>
+		<label for="operando1">Dias: </label>
+		<input type="Text" name="resultado" value="" size="10">
+
+
+	</form>
+
+</body>
+
+</html>
