@@ -1,9 +1,40 @@
 <?php
-class ER extends Modelo {
-	public $nombre_tabla = 'expresiones';
 
+class ER extends Modelo{
+    public $nombre_tabla = 'expresiones';
+    
+    
+    public $atributos = array(
+        'nombre'=>array(),
+        'curp'=>array(),
+        'telefono'=>array(),
+        'tarjeta'=>array(),
+        'fecha'=>array(),
+        'hora'=>array()
+    );
+    
+    public $errores = array( );
+    
+    private $nombre;
+    private $curp;
+    private $telefono;
+    private $tarjeta;
+    private $fecha;
+    private $hora;
+    
+    function ER(){
+        parent::Modelo();
+    }
+    
+    public function get_atributos(){
+        $rs = array();
+        foreach ($this->atributos as $key => $value) {
+            $rs[$key]=$this->$key;
+        }
+        return $rs;
+    }
 
-    public function set_nombre($valor){
+     public function set_nombre($valor){
         
         $rs = $this->consulta_sql("select * from expresiones where nombre = '$valor'");
         $rows = $rs->GetArray();
@@ -22,31 +53,6 @@ class ER extends Modelo {
     } 
     
 
-    public function get_password(){
-        return $this->password;
-    } 
-    public function set_password($valor){
-         
-     //     CONTRASEÑA SEGURA
-    	// •Contraseñas que contengan al menos una letra mayúscula.
-     //    •Contraseñas que contengan al menos una letra minúscula.
-     //    •Contraseñas que contengan al menos un número o carácter especial.
-     //    •Contraseñas cuya longitud sea como mínimo 8 caracteres.
-     //    •Contraseñas cuya longitud máxima no debe ser arbitrariamente limitada. 
-
-        $rs = $this->consulta_sql("select * from expresiones where password = '$valor'");
-        $rows = $rs->GetArray();
-
-        if(preg_match("/^((?=^.{8,}$)((?=.*d)|(?=.*W+))(?![.n])(?=.*[A-Z])(?=.*[a-z]).*$)+$/",$valor))
-        {
-          $this->password = trim($valor);
-          echo "El password: (".$valor.") es de seguridad alta";
-        }
-            else{
-            	$this->password = trim($valor);
-           echo "El password: (".$valor.") es de seguridad baja";
-            }
-    }
     
     public function get_curp(){
         return $this->curp;
@@ -95,8 +101,39 @@ class ER extends Modelo {
             echo "El Número de la tarjeta: (".$valor.") no es válido, por favor verifique";
             }
     }
-     
-}
 
+        public function get_fecha(){
+        return $this->fecha;
+    } 
+    public function set_fecha($valor){
+        $rs = $this->consulta_sql("select * from expresiones where fecha = '$valor'");
+        $rows = $rs->GetArray();
+        
+        if(preg_match("/^(^\d{1,2}\/\d{1,2}\/\d{2,4}$)+$/",$valor))
+                $this->fecha = trim($valor);
+            else{
+            $this->fecha = "";
+            $this->errores[] = "La fecha: (".$valor.") no es válida, por favor verifique (formato dd/mm/aaaa)";
+            echo "La fecha: (".$valor.") no es válida, por favor verifique (formato dd/mm/aaaa)";
+            }
+    }
+
+    public function get_hora(){
+        return $this->hora;
+    } 
+    public function set_hora($valor){
+        $rs = $this->consulta_sql("select * from expresiones where hora = '$valor'");
+        $rows = $rs->GetArray();
+        
+        if(preg_match("/^(^[0-2][0-3]:[0-5][0-9]$)+$/",$valor))
+                $this->hora = trim($valor);
+            else{
+            $this->hora = "";
+            $this->errores[] = "La hora: (".$valor.") no es válida, por favor verifique (formato hh:mm)";
+            echo "La hora: (".$valor.") no es válida, por favor verifique (formato hh:mm)";
+            }
+    }
+
+    }
 
 ?>
