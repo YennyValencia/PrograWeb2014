@@ -72,7 +72,7 @@
               <ul class="dropdown-menu">
                 <li><a href="<?php echo BASEURL; ?>/views/11130587/Registro.php">Examen 3</a></li>
                 <li><a href="<?php echo BASEURL; ?>/views/11130587/Registrov2.php">Examen 3 versión 2</a></li>
-                
+               
                 <li class="divider"></li>
               </ul>
             </li>

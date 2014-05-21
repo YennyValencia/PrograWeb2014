@@ -1,9 +1,10 @@
 <?php
       include ('../../libs/adodb5/adodb-pager.inc.php');
       include ('../../libs/adodb5/adodb.inc.php');
+      include ('../../libs/ER.php');
       include ('../../models/Conexion.php');
       include ('../../models/Modelo.php');
-      include ('../../models/ER.php');
+      include ('../../models/Usuarios2.php');
       include ('../layouts/header.php');
 ?>
 
@@ -80,20 +81,20 @@
 
 <?php
 
-      $er = new ER();
+      $u2 = new Usuarios2();
       if(isset($_POST["nombre"])){
        
-     $er->set_nombre($_POST["nombre"]); 
-     $er->set_curp($_POST["curp"]); 
-     $er->set_telefono($_POST["telefono"]); 
-     $er->set_tarjeta($_POST["tarjeta"]); 
-     $er->set_fecha($_POST["fecha"]); 
-     $er->set_hora($_POST["hora"]); 
-     $er->inserta($er->get_atributos());
+     $u2->set_nombre($_POST["nombre"]); 
+     $u2->set_curp($_POST["curp"]); 
+     $u2->set_telefono($_POST["telefono"]); 
+     $u2->set_tarjeta($_POST["tarjeta"]); 
+     $u2->set_fecha($_POST["fecha"]); 
+     $u2->set_hora($_POST["hora"]); 
+     $u2->inserta($u2->get_atributos());
      
       }
-       $rs = $er->consulta_datos();
-       $er->show_grid('*', ' ','10');
+       $rs = $u2->consulta_datos();
+       $u2->show_grid('*', ' ','10');
 
       ?>
 

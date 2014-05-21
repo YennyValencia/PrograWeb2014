@@ -1,6 +1,7 @@
 <?php
       include ('../../libs/adodb5/adodb-pager.inc.php');
       include ('../../libs/adodb5/adodb.inc.php');
+      include ('../../libs/ER.php');
       include ('../../models/Conexion.php');
       include ('../../models/Modelo.php');
       include ('../../models/Usuarios.php');
