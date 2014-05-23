@@ -1,0 +1,16 @@
+.color1 {
+	background-color:red;
+}
+
+.color2 {
+	background-color:green;
+	background-image: url(img/imagen1.jpg);
+}
+
+.color3 {
+	background-color:blue;
+}
+
+.color4 {
+	background-color:yellow;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head> <!-- solo va una vez a nivel de codigo, incluye las referencias del documento -->
+		<title>Pr&aacute;ctica 1</title>
+		<!-- Esto es un comentario -->
+		<meta charset="utf-8"> <!-- define el juego de caracteres -->
+		<meta name="viewport" content="width=device-width"> <!--Monitorea las dimensiones del navegador-->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<script src="js/main.js"></script>
+		
+	</head>
+	<body>
+		<div class="header-container"> <!-- no se puede escribir texto -->
+			<header class="container clear" id="titulo1">  <!--define encabezados, pero ya del contenido, el id no se puede repetir, es uno por elem
+																	y la clase si se puede repetir, en uno o mas elementos-->
+				<h1 class="title"> h1.title </h1>
+				<nav>
+					<ul>
+						<li><a href="#">Inicio</a></li>
+						<li><a href="www.itc.mx">itc</a></li> <!-- sin el http lo toma como carpeta nadamas -->
+						<li><a href="http://www.itc.mx#titulo1" target="_blank">Contacto</a></li> <!-- el target es para enviarlo a una nueva ventana -- >
+																	<!-- el #yID es para posicionarme en una parte especifica de la pagina -->
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<div class="main-container">
+			<div class="main container clear">
+				<article>
+					<header>
+						<h1>Titulo de la noticia</h1>
+						<p> Descripcion de la noticia </p>
+					</header>
+					<section>
+						<h2>Subtitulo de la noticia</h2>
+						<p>Contenido de la noticia </p>
+					</section>
+					<section>
+						<h2>Subtitulo de la noticia</h2>
+						<p>Contenido de la noticia </p>
+					</section>
+					<footer>
+						<h3>fin del articulo </h3>
+						<p>mas informacion </p>
+					</footer>
+				</article>
+				<aside>
+					<h3> barra lateral </h3>
+					<p>Informacion </p>
+				</aside>
+			</div> <!-- main container-->
+		</div>	<!-- main-container-->
+		
+		<div class="footer-container">
+			<footer class="container">
+				<h3>informacion de contacto</h3>
+			</footer>
+		</div>
+	</body>
+</html>

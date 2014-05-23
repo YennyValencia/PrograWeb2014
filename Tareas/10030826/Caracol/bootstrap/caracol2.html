@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Caracol</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/mi.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div class="row">
+		
+			<div class="col-md-4 ">
+				<center>
+					<form class="navbar-form navbar-left" role="search" name='forma'>
+						<span class="label label-default">Profundidad</span>
+						<div class="form-group">
+							<input type="text" id="dato1" class="form-control" placeholder="Profundidad">
+						</div>
+						<span class="label label-default">Metros</span>
+					</form>	
+					<form class="navbar-form navbar-left" role="search">
+						<span class="label label-default">Sube</span>
+						<div class="form-group">
+							<input type="text" id="dato2" class="form-control" placeholder="Dato">
+						</div>
+						<span class="label label-default">Días</span>
+					</form>	
+					
+					<!--form class="navbar-form navbar-left" role="search"-->
+						<button type="button" id='cal' class="btn btn-primary" onclick='function profundidad()'>Calcular</button>
+					
+					<form class="navbar-form navbar-left" role="search">
+						<span class="label label-default">Resbala</span>
+						<div class="form-group">
+							<input type="text" id="dato3" class="form-control" placeholder="Dato">
+						</div>
+						<span class="label label-default">Días</span>
+					</form>				
+				</center>
+			</div>
+			
+			<div class="col-md-4 ">
+					<center>
+						<img src="img/sol.jpg" id="cambia" height="200" width="200" />
+					</center>
+			</div>
+			
+			<div class="col-md-4 ">
+				<center>
+					<div id="bljaIMGte">
+						<img src="img/pozo.png" id="termo" height="300" width="450" /> 
+						<span style="position: absolute; top: 250px; left: 50 px;">
+							<img src="img/caracol.jpg" id="caracol" height="60" width="60" ALIGN='bottom' />
+						</span>
+					</div>	
+				</center>			
+			</div>
+			
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main1.js"></script>
+	</body>
+</html>

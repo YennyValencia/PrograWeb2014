@@ -1,0 +1,47 @@
+.color1{
+	border: 1px solid black;
+	background-color: gray; 
+	color: white;
+}
+
+
+body{ 
+background-image: url("C:/wamp/www/apple1/img/fondo.jpg"); 
+background-repeat: no-repeat; 
+background-size: 100%; 
+}
+.centered
+{
+	text-align: center;
+}
+.i1{
+
+	background-image: url("http://images.apple.com/home/images/your_verse_title_small.png"); 
+	background-repeat: no-repeat; 
+	background-size: 100%; 
+}
+
+.i2{
+	background-image: url("http://images.apple.com/home/images/your_verse_subhead_small.png"); 
+	background-repeat: no-repeat; 
+	background-size: 100%; 
+}
+.i3{
+	background-image: url("http://images.apple.com/home/images/cta_your_verse_27pt.png"); 
+	background-repeat: no-repeat; 
+	background-size: 100%; 
+}
+
+.color2{
+	background-color: #FFFF00;
+}
+.color3{
+	background-color: #FF9900;
+}
+.color4{
+	background-color: #FFCC99;
+}
+
+.color{
+	color: red;
+}

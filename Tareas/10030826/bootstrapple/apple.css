@@ -1,0 +1,44 @@
+.color1{
+	border: 1px solid black;
+	background-color: gray; 
+	color: white;
+}
+body{ 
+background-image: url("img/fondo.jpg"); 
+background-repeat: no-repeat; 
+background-size: 110%; 
+}
+
+a{
+	background-image: url("img/a.jpg"); 
+background-repeat: no-repeat; 
+background-size: 110%;
+}
+.color2{
+	color: white;
+}
+
+.centered
+{
+	text-align: center;
+}
+.color3{
+	background-color: #FF9900;
+}
+.color4{
+	background-color: #FFCC99;
+}
+.color5{
+	background-color: #99FFCC;
+}
+.color6{
+	background-color: #99FF00;
+}
+
+.color7{
+	background-color: #C3599F;
+}
+
+.color8{
+	background-color: #9995AA;
+}

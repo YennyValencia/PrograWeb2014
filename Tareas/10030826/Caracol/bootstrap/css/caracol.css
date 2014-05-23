@@ -1,0 +1,38 @@
+.color1{
+	background-color: red;
+}
+.color2{
+	background-color: blue;
+}
+.color3{
+	background-color: green;
+}
+.color4{
+	background-color: yellow;
+}
+
+.caja{
+	background-color:gray;
+	width: 200px;
+	height: 150px;
+	
+}
+
+img{
+	width: 50px;
+	height: 50px;
+
+}
+
+.centered
+{
+	text-align: center;
+}
+
+h1{
+	text-shadow:15px 19px 5px #000000;
+	color: cyan;
+	
+}
+
+

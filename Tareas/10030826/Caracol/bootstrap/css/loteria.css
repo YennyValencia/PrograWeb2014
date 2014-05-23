@@ -1,0 +1,33 @@
+.color1{
+	background-color: red;
+}
+.color2{
+	background-color: blue;
+}
+.color3{
+	background-color: green;
+}
+.color4{
+	background-color: yellow;
+}
+
+.centered
+{
+	text-align: center;
+}
+.img{
+	width: 80;
+	background-size: 20%; 
+}
+
+.img2{
+	background-image: url("http://images.apple.com/home/images/your_verse_subhead_small.png"); 
+	background-repeat: no-repeat; 
+	background-size: 100%; 
+}
+.img3{
+	background-image: url("http://images.apple.com/home/images/cta_your_verse_27pt.png"); 
+	background-repeat: no-repeat; 
+	background-size: 100%; 
+}
+
